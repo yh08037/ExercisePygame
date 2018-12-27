@@ -35,7 +35,7 @@ while not done:
     #pygame.draw.rect(Surface, color, Rect, Width=0)
     #Surface : pygame을 실행할 때 전체적으로 화면을 선언한 변수 값
     #color : 사각형의 색깔을 (R, G, B)의 형태로 전달
-    #Rect : 사각형을 [x축, y축, 오른쪽, 아래]의 형태로 전달
+    #PointList : 사각형을 [x축, y축, 오른쪽, 아래]의 형태로 전달
     #Width : 사각형의 선 크기이며, 기본값은 0:색 채움
 
     pygame.draw.rect(screen, BLACK, [75, 10, 50, 20], 2)
