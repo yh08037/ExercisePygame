@@ -35,7 +35,7 @@ while not done:
     #pygame.draw.rect(Surface, color, PointLilst, Width=0)
     #Surface : pygame을 실행할 때 전체적으로 화면을 선언한 변수 값
     #color : 다각형의 색깔을 (R, G, B)의 형태로 전달
-    #Rect : 다각형을 점을 [[x1, y1], [x2, y2],..., [xn, yn]]의 형태로 전달
+    #PointList : 다각형을 점을 [[x1, y1], [x2, y2],..., [xn, yn]]의 형태로 전달
     #Width : 다각형의 선 크기이며, 기본값은 0:색 채움
 
     pygame.draw.polygon(screen, BLACK, [[50, 50], [0, 100], [100, 100]], 2)
