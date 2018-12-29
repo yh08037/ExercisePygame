@@ -16,7 +16,7 @@ RED   = (255,   0,   0)
 size = [400, 300]
 screen = pygame.display.set_mode(size)
 
-pygame.display.set_caption("선분 그리기")
+pygame.display.set_caption("꺾인 선분 그리기")
 
 
 #닫기 버튼을 누를 때까지 반복
